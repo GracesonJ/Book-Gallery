@@ -1,4 +1,125 @@
 *{
-    background-color: black;
-    color: aqua;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+header{
+    background-color: rgb(56, 54, 54);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* position: fixed; */
+}
+header button{
+    height: 50px;
+    width: 100px;
+    border-radius: 8%;
+    margin-top: 15px;
+    font-weight: 800;
+    font-size: 15px;
+}
+header button:hover{
+    color: rgb(210, 225, 225);
+    background-color: rgb(103, 105, 105);
+}
+
+header h1{
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 2px 4px 6px black;
+    padding: 15px;
+}
+section h3{
+    color: black;
+    background-color: rgb(75, 75, 75);
+    padding: 15px;
+    text-shadow: 2px 4px 6px rgb(255, 255, 255);
+
+}
+
+.row{
+    background-color: rgb(75, 75, 75);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;   
+}
+.col{
+    background-color: rgb(155, 170, 170);
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+    padding: 5px;
+    align-items: center;
+    box-shadow: 2px 4px 6px black;
+    border-radius: 10px;
+}
+img{
+    width: 200px; 
+    padding: 20px 10px 10px 45px;
+    border-radius: 10px;
+}
+img:hover{
+    box-shadow: 2px 4px rgb(19, 26, 25);
+}
+h2{
+    margin: 20px;
+    color: rgb(44, 44, 44);
+    font-style: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h4{
+    font-weight: bolder;
+    padding-left: 10px;
+
+}
+h4 span{
+    color: rgb(0, 0, 0);
+    font-size: larger;
+}
+#btn{
+    background-color: rgb(43, 41, 41);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 10%;
+    margin-left: 60%;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: rgb(149, 144, 144);
+    color: rgb(255, 255, 255);
+}
+footer{
+    background-color: rgb(56, 54, 54);
+    height: 150px;
+    padding: 20px;
+    display: flex;
+    justify-content:space-around;
+}
+h3{
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    text-shadow: 2px 4px 6px black;
+    padding: 0px 0px 20px 0px;
+
+}
+
+footer p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration:underline;
+    cursor: pointer;
+    margin: 5px;
+}
+.banner{
+background-image: url(./stock-vector-portfolio-geometric-design-vector-set-abstract-blue-liquid-graphic-gradient-circle-shape-on-cover-1854684340.jpg);
+width: 100%;
+height: 500px;
+background-size: cover;
 }
